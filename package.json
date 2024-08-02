@@ -1,0 +1,24 @@
+{
+	"name": "rest-example",
+	"version": "0.1.0",
+	"description": "rest-example Graphweaver Project",
+	"scripts": {
+		"build": "graphweaver build",
+		"start": "graphweaver start",
+		"watch": "graphweaver watch",
+		"import": "graphweaver import"
+	},
+	"dependencies": {
+		"@exogee/graphweaver": "2.0.7",
+		"@exogee/graphweaver-rest": "2.0.7",
+		"@exogee/graphweaver-scalars": "2.0.7",
+		"@exogee/graphweaver-server": "2.0.7",
+		"got-cjs": "12.5.4",
+		"graphql": "16.9.0"
+	},
+	"devDependencies": {
+		"@types/node": "22.0.0",
+		"graphweaver": "2.0.7",
+		"typescript": "5.5.4"
+	}
+}

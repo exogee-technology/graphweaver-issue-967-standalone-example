@@ -1,0 +1,5 @@
+# These are installed by pnpm
+node_modules
+
+# Temporary working files
+.graphweaver
