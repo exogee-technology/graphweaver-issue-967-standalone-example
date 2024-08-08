@@ -9,16 +9,18 @@
 		"import": "graphweaver import"
 	},
 	"dependencies": {
-		"@exogee/graphweaver": "2.0.7",
-		"@exogee/graphweaver-rest": "2.0.7",
-		"@exogee/graphweaver-scalars": "2.0.7",
-		"@exogee/graphweaver-server": "2.0.7",
+		"@exogee/graphweaver": "2.2.0",
+		"@exogee/graphweaver-auth": "^2.2.0",
+		"@exogee/graphweaver-auth-ui-components": "^2.2.0",
+		"@exogee/graphweaver-rest": "2.2.0",
+		"@exogee/graphweaver-scalars": "2.2.0",
+		"@exogee/graphweaver-server": "2.2.0",
 		"got-cjs": "12.5.4",
 		"graphql": "16.9.0"
 	},
 	"devDependencies": {
-		"@types/node": "22.0.0",
-		"graphweaver": "2.0.7",
+		"@types/node": "22.1.0",
+		"graphweaver": "2.2.0",
 		"typescript": "5.5.4"
 	}
 }
