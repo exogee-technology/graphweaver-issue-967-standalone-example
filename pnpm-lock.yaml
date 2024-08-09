@@ -5,14 +5,17 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@auth0/auth0-spa-js':
+    specifier: 2.1.3
+    version: 2.1.3
   '@exogee/graphweaver':
     specifier: 2.2.0
     version: 2.2.0
   '@exogee/graphweaver-auth':
-    specifier: ^2.2.0
+    specifier: 2.2.0
     version: 2.2.0(react@18.3.1)
   '@exogee/graphweaver-auth-ui-components':
-    specifier: ^2.2.0
+    specifier: 2.2.0
     version: 2.2.0(@auth0/auth0-spa-js@2.1.3)(@exogee/graphweaver-admin-ui-components@2.2.0)(formik@2.2.9)(graphql@16.9.0)(react-dom@18.3.1)(react-router-dom@6.23.1)(react@18.3.1)
   '@exogee/graphweaver-rest':
     specifier: 2.2.0

@@ -1,4 +1,9 @@
-import { UserProfile, AuthZero, setAddUserToContext } from '@exogee/graphweaver-auth';
+import {
+	UserProfile,
+	AuthZero,
+	setAddUserToContext,
+	setImplicitAllow,
+} from '@exogee/graphweaver-auth';
 
 export const authZero = new AuthZero();
 
@@ -8,5 +13,6 @@ export const addUserToContext = async (userId: string) => {
 		roles: ['everyone'],
 	});
 };
-// This function is called when a user logs in
+
 setAddUserToContext(addUserToContext);
+setImplicitAllow(true);
